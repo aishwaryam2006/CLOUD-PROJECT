@@ -1,0 +1,14 @@
+{
+  "name": "virtual-queue-api",
+  "version": "1.0.0",
+  "description": "Azure Functions backend for Virtual Queue System",
+  "main": "index.js",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "@azure/cosmos": "^4.0.0",
+    "@azure/storage-blob": "^12.31.0"
+  }
+}
