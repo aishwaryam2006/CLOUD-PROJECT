@@ -1,4 +1,4 @@
-console.log("ENV:", process.env.COSMOS_CONNECTION_STRING);
+
 const { containers } = require("../db");
 
 module.exports = async function (context, req) {
